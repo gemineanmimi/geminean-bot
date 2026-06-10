@@ -23,55 +23,53 @@ BASE = "https://res.cloudinary.com/dt1ynj4bd/image/upload"
 # ข้อมูลสำรับทั้งหมด
 # =============================================
 DECKS = {
-    "Tess":     f"{BASE}/18_szm8os.jpg",
-    "Justin":   f"{BASE}/16_ppjrac.jpg",
-    "Jeness":   f"{BASE}/17_zdtqsh.jpg",
-    "Jamie":    f"{BASE}/15_tsuiny.jpg",
-    "Travis":   f"{BASE}/14_tnp7ws.jpg",
-    "Toby":     f"{BASE}/7_iptvxz.jpg",
-    "Jovita":   f"{BASE}/13_oermlh.jpg",
-    "Tara":     f"{BASE}/12_bttbzu.jpg",
-    "Thor":     f"{BASE}/10_dfxgno.jpg",
-    "Jocelyn":  f"{BASE}/11_zvvwon.jpg",
-    "Tierra":   f"{BASE}/9_eyscj8.jpg",
-    "Trust":    f"{BASE}/8_veum2l.jpg",
-    "Jasmin":   f"{BASE}/6_esm6li.jpg",
-    "Jasper":   f"{BASE}/2_mapmds.jpg",
-    "Teddy":    f"{BASE}/5_i1mw2t.jpg",
-    "Trio":     f"{BASE}/4_xwlzzc.jpg",
-    "Tylor":    f"{BASE}/3_gwqu1l.jpg",
-    "Thame":    f"{BASE}/1_dwrqvs.jpg",
+    "tess":     f"{BASE}/18_szm8os.jpg",
+    "justin":   f"{BASE}/16_ppjrac.jpg",
+    "jeness":   f"{BASE}/17_zdtqsh.jpg",
+    "jamie":    f"{BASE}/15_tsuiny.jpg",
+    "travis":   f"{BASE}/14_tnp7ws.jpg",
+    "toby":     f"{BASE}/7_iptvxz.jpg",
+    "jovita":   f"{BASE}/13_oermlh.jpg",
+    "tara":     f"{BASE}/12_bttbzu.jpg",
+    "thor":     f"{BASE}/10_dfxgno.jpg",
+    "jocelyn":  f"{BASE}/11_zvvwon.jpg",
+    "tierra":   f"{BASE}/9_eyscj8.jpg",
+    "trust":    f"{BASE}/8_veum2l.jpg",
+    "jasmin":   f"{BASE}/6_esm6li.jpg",
+    "jasper":   f"{BASE}/2_mapmds.jpg",
+    "teddy":    f"{BASE}/5_i1mw2t.jpg",
+    "trio":     f"{BASE}/4_xwlzzc.jpg",
+    "tylor":    f"{BASE}/3_gwqu1l.jpg",
+    "thame":    f"{BASE}/1_dwrqvs.jpg",
 }
 
 # =============================================
 # keyword → สำรับที่เหมาะสม
 # =============================================
 KEYWORD_DECKS = {
-    "ความรัก":      ["Jasper", "Tylor", "Tara", "Teddy", "Thame", "Trust"],
-    "ความสัมพันธ์": ["Jasper", "Tylor", "Tara", "Teddy", "Thame", "Trust", "Jocelyn"],
-    "การงาน":       ["Justin", "Jasmin", "Tierra", "Thor", "Jamie"],
-    "งาน":          ["Justin", "Jasmin", "Tierra", "Thor", "Jamie"],
-    "การเงิน":      ["Jasmin", "Jocelyn", "Tierra", "Trust"],
-    "เงิน":         ["Jasmin", "Jocelyn", "Tierra", "Trust"],
-    "ครอบครัว":     ["Jocelyn", "Trio", "Tara"],
-    "ปกป้อง":       ["Tara", "Thame", "Trio"],
-    "ตัดสินใจ":     ["Tess", "Justin", "Thor", "Tierra"],
-    "พัฒนาตัวเอง":  ["Tess", "Jeness", "Travis", "Jovita"],
-    "สร้างสรรค์":   ["Travis", "Jeness", "Thor"],
-    "ความเครียด":   ["Jovita", "Trust", "Tara", "Thame"],
-    "เครียด":       ["Jovita", "Trust", "Tara", "Thame"],
-    "ความสำเร็จ":   ["Jamie", "Jasmin", "Tierra", "Jeness"],
-    "โปรเจกต์":     ["Justin", "Travis", "Jamie", "Thor"],
-    "ความมั่นคง":   ["Tierra", "Trust", "Jocelyn", "Jasmin"],
-    "ความกล้า":     ["Thor", "Jeness", "Jamie"],
-    "ความสงบ":      ["Jovita", "Tara", "Trust"],
-    "โชค":          ["Jovita", "Toby"],
-    "ทั้งหมด":      list(DECKS.keys()),
-    "สำรับทั้งหมด": list(DECKS.keys()),
+    "ความรัก":      ["tess", "jasper", "tylor", "tara", "teddy", "thame"],
+    "ความสัมพันธ์": ["jasper", "tylor", "tara", "teddy", "thame", "trust", "jocelyn"],
+    "การงาน":       ["justin", "jasmin", "tierra", "thor", "jamie"],
+    "งาน":          ["justin", "jasmin", "tierra", "thor", "jamie"],
+    "การเงิน":      ["jasmin", "jocelyn", "tierra", "trust"],
+    "เงิน":         ["jasmin", "jocelyn", "tierra", "trust"],
+    "ครอบครัว":     ["jocelyn", "trio", "tara"],
+    "ปกป้อง":       ["tara", "thame", "trio"],
+    "ตัดสินใจ":     ["tess", "justin", "thor", "tierra"],
+    "พัฒนาตัวเอง":  ["tess", "jeness", "travis", "jovita"],
+    "สร้างสรรค์":   ["travis", "jeness", "thor"],
+    "ความเครียด":   ["jovita", "trust", "tara", "thame"],
+    "เครียด":       ["jovita", "trust", "tara", "thame"],
+    "ความสำเร็จ":   ["jamie", "jasmin", "tierra", "jeness"],
+    "โปรเจกต์":     ["justin", "travis", "jamie", "thor"],
+    "ความมั่นคง":   ["tierra", "trust", "jocelyn", "jasmin"],
+    "ความกล้า":     ["thor", "jeness", "jamie"],
+    "ความสงบ":      ["jovita", "tara", "trust"],
+    "โชค":          ["jovita", "toby"],
 }
 
 # =============================================
-# ข้อความกำลังใจ 20 ข้อ
+# ข้อความกำลังใจ (แก้ได้ที่นี่)
 # =============================================
 ENCOURAGEMENTS = [
     "วันนี้คุณทำได้ดีมากแล้ว อย่าลืมให้รางวัลตัวเองด้วยนะ 🌸",
@@ -102,7 +100,7 @@ def send_deck_images(reply_token, deck_names, line_bot_api):
     """ส่งรูปสำรับตามชื่อที่กำหนด (สูงสุด 5 รูปต่อครั้ง)"""
     messages = []
     for name in deck_names[:5]:
-        url = DECKS.get(name)
+        url = DECKS.get(name.lower())
         if url:
             messages.append(ImageMessage(
                 original_content_url=url,
@@ -116,7 +114,7 @@ def send_deck_images(reply_token, deck_names, line_bot_api):
         line_bot_api.reply_message(
             ReplyMessageRequest(
                 reply_token=reply_token,
-                messages=[TextMessage(text="ไม่พบสำรับที่ตรงกันค่ะ")]
+                messages=[TextMessage(text="ยังไม่พบ keyword ค่ะ")]
             )
         )
 
@@ -133,6 +131,7 @@ def callback():
 @handler.add(MessageEvent, message=TextMessageContent)
 def handle_message(event):
     user_text = event.message.text.strip().lower()
+    print(f"User พิมพ์: {user_text}")
 
     with ApiClient(configuration) as api_client:
         line_bot_api = MessagingApi(api_client)
@@ -148,27 +147,41 @@ def handle_message(event):
             )
             return
 
-        # ตรวจ keyword สำรับ
+        # catalog — รอรูปรวม (ข้อ 3)
+        if user_text == "catalog":
+            line_bot_api.reply_message(
+                ReplyMessageRequest(
+                    reply_token=event.reply_token,
+                    messages=[TextMessage(text="🔜 catalog กำลังจะมาเร็วๆ นี้ค่ะ")]
+                )
+            )
+            return
+
+        # ตรวจชื่อสำรับโดยตรง เช่น พิมพ์ "tess" หรือ "Thor"
+        if user_text in DECKS:
+            url = DECKS[user_text]
+            line_bot_api.reply_message(
+                ReplyMessageRequest(
+                    reply_token=event.reply_token,
+                    messages=[ImageMessage(
+                        original_content_url=url,
+                        preview_image_url=url
+                    )]
+                )
+            )
+            return
+
+        # ตรวจ keyword หัวข้อ
         for keyword, deck_names in KEYWORD_DECKS.items():
             if keyword in user_text:
                 send_deck_images(event.reply_token, deck_names, line_bot_api)
                 return
 
-        # ไม่เจอ keyword
+        # ไม่เจอ keyword เลย
         line_bot_api.reply_message(
             ReplyMessageRequest(
                 reply_token=event.reply_token,
-                messages=[TextMessage(
-                    text="พิมพ์ keyword ได้เลยนะคะ เช่น:\n"
-                         "💜 ความรัก / ความสัมพันธ์\n"
-                         "💼 การงาน / โปรเจกต์\n"
-                         "💰 การเงิน / ความมั่นคง\n"
-                         "🏠 ครอบครัว\n"
-                         "🌟 พัฒนาตัวเอง / ความสำเร็จ\n"
-                         "🕊️ ความสงบ / ความเครียด\n"
-                         "🃏 สำรับทั้งหมด\n"
-                         "💪 กำลังใจ"
-                )]
+                messages=[TextMessage(text="ยังไม่พบ keyword ค่ะ 🙏")]
             )
         )
 
